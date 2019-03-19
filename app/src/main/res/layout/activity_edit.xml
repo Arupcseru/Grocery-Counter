@@ -6,6 +6,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".EditActivity">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="40dp"
+        android:text="Name"
+
+        />
+
+    <EditText
+        android:id="@+id/et_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:hint="Add Amount"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"/>
 
 
 </LinearLayout>
